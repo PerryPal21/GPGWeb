@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPG | Perry</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PerryPal21/perry.css@master/perry.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Encryption using OpenGPG.js</h1>
+    <p>Enter the public key and the text you want to encrypt below</p>
+    <br>
+  <form action="/encrypt">
+  <label for="pubkey">Pubkey:</label><br>
+  <textarea type="text" id="pubkey" name="pubkey"></textarea><br>
+  <label for="lname">Text:</label><br>
+  <textarea type="text" id="text" name="text"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form> 
+  </div>
+</body>
+</html>
